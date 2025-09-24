@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: PURPLE;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(148, 187, 233, 1) 0%);
+}
+
+header {
+    color: white;
+    padding: 10px 60px
+}
+
+.navbar:first-child {
+    padding-top: 25px;
+}
+
+.logo>h1 {
+    padding-top: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav>ul {
+    padding: 25px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2em;
+    padding: 0px 25px;
+
+}
+
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+
+button {
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: skyblue;
+
+
+}
+
+ul>.btn2 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: skyblue;
+
+
+}
+
+.Hero h2 {
+    font-size: 2.75em;
+    position: absolute;
+    width: fit-content;
+    bottom: 600px;
+    left: 80px;
+    padding-bottom: 25px;
+}
+
+.Hero>div>p {
+    font-size: 1.8em;
+    width: 1200px;
+    /* padding: 200px 55px;
+    margin: 220px 40px; */
+    position: relative;
+    top: 16.5em;
+    left: 80px;
+
+}
+
+
+
+div img {
+    position: absolute;
+    right: 100px;
+    bottom: 270px;
+}
+
+.button {
+    position: absolute;
+    bottom: 23em;
+    margin: 0 55px;
+}
